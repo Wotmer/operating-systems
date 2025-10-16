@@ -46,14 +46,14 @@ public:
         if (other.num_ == 0.0) {
             throw std::runtime_error("Division by zero");
         }
-        return Number(num_ * other.num_);
+        return Number(num_ / other.num_);
     }
 
     Number operator/=(const Number &other) {
         if (other.num_ == 0.0) {
             throw std::runtime_error("Division by zero");
         }
-        num_ *= other.num_;
+        num_ /= other.num_;
         return *this;
     }
 
