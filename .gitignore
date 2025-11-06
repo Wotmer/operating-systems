@@ -1,0 +1,13 @@
+**/.idea/
+
+matrix_thread
+matrix_pthread
+
+*.o
+*.a
+
+*.tmp
+*.swp
+
+.DS_Store
+Thumbs.db
