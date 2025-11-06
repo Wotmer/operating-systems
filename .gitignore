@@ -1,4 +1,5 @@
 **/.idea/
+**/.vs/
 
 matrix_thread
 matrix_pthread
